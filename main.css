@@ -1,0 +1,35 @@
+body {
+    background-color: bisque;
+}
+
+header {
+    padding: 0.5%;
+    border: 2px solid #c2b19f;
+    background-color: #ffffff;
+}
+  
+h1, h2, h3 {
+    margin: 0;
+    padding: 2% 5;
+
+    text-align: left;
+    font-family: "Baskerville Old Face";
+    color: rgb(187, 142, 27);
+}
+
+p, li {
+    font-family: "Open Sans";
+}
+
+.tooltip {
+    display: hide;
+}
+
+.contains-tooltip {
+    text-decoration: underline;
+}
+
+.contains-tooltip:hover + .tooltip {
+    display: inline;
+    font-style: italic;
+}
